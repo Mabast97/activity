@@ -1,0 +1,206 @@
+.wrapper
+{
+    margin: 0 auto;
+    width: 75%;
+}
+
+#hi{display: flex; flex-direction: row;}
+
+.wrapper2
+{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.wrapper3
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contactHeader
+{
+    background-color: black; color: white;
+    display: flex; flex-direction: row;
+    box-sizing: border-box;
+}
+
+#contactHeader .rightIcons
+{
+    margin-left: 60%;
+}
+
+.rightIcons i, .rightIcons span{ padding-right: 7px; }
+
+
+#leftIcons i
+{
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+nav
+{
+    background-color: #ffffff;
+    display: flex;   
+}
+
+#rightNav
+{
+    display: flex; margin-left: 55%;
+}
+
+#rightNav a, #rightNav button
+{
+    margin-left: 15px;
+}
+
+#rightNav a
+{
+    text-decoration: none;
+    color: black;
+    padding-top:20px;
+}
+
+#rightNav button
+{
+    outline: none;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    border: 2px solid #a9c39d;
+    background-color: white;
+    color: #a9c39d;
+}
+
+#rightNav button:hover{
+    cursor: pointer;
+}
+
+main { text-align: center; }
+
+#mainContent
+{
+    background-color: #4ba367;
+    padding: 60px;
+}
+
+img
+{
+    width: 400px; height: 350px
+}
+
+#emailAddress
+{
+    margin-top: 50px;
+}
+
+#emailAddress input 
+{ 
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: 2px solid green;
+    border-right: none;
+}
+
+#emailAddress button
+{
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -5px;
+    height: 40px;
+    border: 2px solid green;
+    border-left: none;
+}
+
+#emailAddress p
+{
+    color: #a9e1b9;
+}
+
+#community
+{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+#communityCard
+{
+    text-align: center;
+    border: none;
+    box-shadow: 0px 0px 25px 3px #888888;
+    background-color: white;  
+    width: 480px;
+    height: 210px;
+    margin-left: 60px;
+}
+
+#communityCard>i { font-size: 2em; color: lightgray;}
+#communityCard>i:hover { font-size: 2em; color: black; cursor: pointer;}
+
+.flex { display: flex; }
+
+#enter
+{
+    color: green; font-size: 3em;
+    padding-top: 40px;
+}
+
+#sign h3 { color: green; }
+#sign { width: 100%;}
+
+.circle
+{
+    margin-top: 20px;
+    border: 2px solid #5eb544;
+    border-radius: 50%;
+    width: 40px; height: 30px;
+    padding: 5px; margin-left: 25%;
+}
+
+.circle i
+{
+    font-size: 1.5em; color: #5eb544;
+}
+
+.circle p { font-size: 1em; }
+
+#d1
+{
+    border: none;
+    border: 1px solid lightgray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    background-color: #5eb544;
+    font-size: 1.4em;
+    margin-right: -10px; padding-right: 10px;
+}
+
+#or
+{
+    border-radius: 50%;
+    background-color: green;
+    color: white; font-size: 1.3em;
+}
+
+#d2
+{
+    border: none;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-size: 1.4em;
+    padding-left: 10px;
+    margin-left: -10px;
+}
